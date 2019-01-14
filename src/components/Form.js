@@ -1,11 +1,13 @@
 import React from 'react';
-const Form = (props) => {
-  return (
-      <form onSubmit={props.loadWeather}>
-        <input type="text" name="city" placeholder="City..." />
-        <input type="text" name="country" placeholder="Country..." />
-        <button>Show me the forecast</button>
+class Form extends React.Component{
+  render() {
+    return (
+      <form onSubmit = {this.props.loadWeather}>
+        <input type="text" name="city" placeholder="City..."/>
+        <input type="text" name="country" placeholder="Country..."/>
+        <button>Show Forecast</button>
       </form>
-  )
+    )
+  }
 }
 export default Form;
