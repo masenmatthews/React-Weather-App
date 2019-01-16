@@ -40,7 +40,7 @@ class App extends React.Component{
 
    render(){
     return(
-      <div>
+      <div class="form-content">
         <Header />
         <Form loadWeather={this.getForecast} />
         <Forecast

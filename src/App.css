@@ -1,0 +1,29 @@
+body {
+  background-image: url('./images/rain.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat stretch;
+}
+
+.form-content {
+  border: 3px solid;
+  background:rgba(275,275,275,0.9);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-head {
+  text-align: center;
+}
+
+.input-form {
+  text-align: center;
+}
+
+.forecast-results {
+  text-align: center;
+}
