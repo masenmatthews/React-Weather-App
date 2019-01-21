@@ -3,7 +3,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: no-repeat cover;
   background-repeat: no-repeat stretch;
 }
 
@@ -14,6 +14,7 @@ body {
 
 .input-form {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .form-content {
@@ -25,8 +26,17 @@ body {
   margin-right: 100px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .forecast-results {
+  background-color: rgba(120,120,120,.7);
   text-align: center;
   color: white;
+  min-width: 400px;
+  max-width: 500px;
   font-size: 1.25em;
 }

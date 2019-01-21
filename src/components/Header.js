@@ -6,7 +6,7 @@ const Header = (props) =>{
   return (
     <div className="main-head">
       <PageHeader>
-        Welcome to the Weather App! Enter a location to get weather info now.
+        Welcome to the Weather App! Enter a location to get weather information.
       </PageHeader>
     </div>
   )
