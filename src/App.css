@@ -7,23 +7,26 @@ body {
   background-repeat: no-repeat stretch;
 }
 
-.form-content {
-  border: 3px solid;
-  background:rgba(275,275,275,0.9);
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 .main-head {
   text-align: center;
+  color: white;
 }
 
 .input-form {
   text-align: center;
 }
 
+.form-content {
+  border: 3px solid;
+  background:rgba(275,265,255,0.9);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .forecast-results {
   text-align: center;
+  color: white;
+  font-size: 1.25em;
 }

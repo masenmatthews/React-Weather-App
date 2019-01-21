@@ -1,11 +1,13 @@
 import React from 'react';
 import '../App.css';
+import { PageHeader } from 'react-bootstrap';
 
 const Header = (props) =>{
   return (
-    <div class="main-head">
-      <h1>Welcome to the Weather App</h1>
-      <p>Enter a location to get weather info now:</p>
+    <div className="main-head">
+      <PageHeader>
+        Welcome to the Weather App! Enter a location to get weather info now.
+      </PageHeader>
     </div>
   )
 }

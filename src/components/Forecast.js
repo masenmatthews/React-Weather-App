@@ -1,7 +1,9 @@
 import React from 'react';
+import { Well } from 'react-bootstrap';
+
 const Forecast = (props) => {
   return(
-       <div class="forecast-results">
+       <div className="forecast-results">
         {props.country && props.city && <p>Location: {props.city},    {props.country}</p>}
         {props.temperature && <p>Temperature: {props.temperature}</p>}
         {props.humidity && <p>Humidity: {props.humidity}</p>}
