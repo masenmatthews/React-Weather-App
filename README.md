@@ -6,11 +6,18 @@
 I built this application because I wanted to learn more about using React. Specifically, I wanted to learn about using APIs with React. 
 
 ## How to use
+
 You can use this application by visiting the app and entering a city and country into the form fields. The application will then return the forecast for that location. 
+
+## Live preview
+
+See this application in action at https://agitated-franklin-55a50d.netlify.com/. 
 
 ## Tech/framework used
 
 This application was built with React and bootstrapped using Create React App. You can learn more about Create React App here: https://github.com/facebook/create-react-app. It also utilizes the OpenWeather API and NPM. 
+
+This application is also being hosted with Netlify. Learn more about Netlify at https://www.netlify.com/. 
 
 ## OpenWeather API
 
@@ -24,11 +31,13 @@ You can use OpenWeather to pull a variety of weather information including:
 See documentation for more info!
 
 ## Requirements
+
 You must have the following installed to run this application:
     -Node.js/NPM (see: https://www.npmjs.com/get-npm)
     -React (https://codeburst.io/installing-reactjs-and-creating-your-first-application-d437706498ed)
 
 ## Installation
+
 You can set up and run this app by doing the following:
 
 1. Clone Git repository to desktop or desired directory
@@ -39,9 +48,11 @@ You can set up and run this app by doing the following:
 5. Navigate to http://localhost:3000/ in Google Chrome or a browser of your choice. 
 
 ## Tests
+
 N/A
 
 ## Build commands
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
